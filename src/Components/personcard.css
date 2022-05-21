@@ -1,0 +1,66 @@
+.selectedContainer {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    line-height: 0px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.image {
+    border-radius: 50%;
+}
+
+.details {
+    width: 70%;
+}
+
+.nameSelected {
+    display: flex;
+    font-size: 40px;
+    align-content: center;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 2px;
+}
+
+.namespaceSelected {
+    padding: 4px;
+}
+
+.address {
+    display: flex;
+}
+
+.addressline {
+    padding: 2px;
+}
+
+.addressnumber {
+    color: #A259FF;
+    font-weight: bold;
+}
+
+.timezone {
+    display: flex;
+}
+
+.timezoneline {
+    padding: 2px;
+}
+
+.gender {
+    font-weight: lighter;
+}
+
+.bold {
+    font-weight: bold;
+}

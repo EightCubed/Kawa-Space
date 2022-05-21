@@ -1,0 +1,47 @@
+.container {
+    background-color: #E5E5E5;
+    height: 100%;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.topleft {
+    display: flex;
+    justify-self: flex-start;
+    width: 15%;
+    justify-content: end;
+    font-weight: bold;
+}
+
+.toppadding {
+    width: 60%;
+}
+
+.topright {
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+.topunderline {
+    text-decoration: underline;
+    text-decoration-color: #E16259;
+}
+
+.selectedContact {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 30px;
+    padding: 50px 50px 50px 50px;
+}
