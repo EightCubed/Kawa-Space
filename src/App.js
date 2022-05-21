@@ -19,7 +19,7 @@ const App = () => {
       setData(response.data)
     } catch (err) {
       setError(err.message);
-      console.log('Error',err.message)
+      console.log('Error',error)
     } finally {
       setLoading(false);
     }
