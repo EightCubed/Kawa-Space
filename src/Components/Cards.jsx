@@ -18,7 +18,7 @@ const Cards = ({data,setSelected,selectedID}) => {
                 <p className='namespace'>{data.name.first}</p>
                 <p className='namespace'>{data.name.last}</p>
             </div>
-            <div className='email'>
+            <div className={data.email===selectedID?'email selectedCard':'email'}>
                 <p>{data.email}</p>
             </div>
         </div>
