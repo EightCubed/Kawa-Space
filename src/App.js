@@ -25,22 +25,22 @@ const App = () => {
       setLoading(false);
     }
   };
-  
+
   useEffect(() => {
     getData();
-  },[]);
+    // eslint-disable-next-line
+  },[error]);
 
   const handleSelected = (ID) => {
     setSelectedID(ID)
-    console.log(ID)
   }
-
-  console.log(data)
 
   return(
     <div className="container">
       {loading && (
-        <h2>Loading!!!</h2>
+        <div className="loader">
+          <div class="lds-dual-ring"></div>
+        </div>
       )}
       {!loading && (
         <div>
